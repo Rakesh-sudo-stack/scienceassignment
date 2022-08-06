@@ -1,0 +1,141 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background: linear-gradient(to bottom,rgb(51, 163, 88),rgb(17, 129, 68),rgba(9, 119, 46, 0.856)); */
+    background: linear-gradient(rgb(116, 116, 204),rgb(118, 118, 207),rgb(91, 91, 248));
+}
+
+header{
+    height: 4rem;
+    width: 100%;
+    color: white;
+    font-size: 2rem;
+    line-height: 4rem;
+    text-align: center;
+    /* background: linear-gradient(rgb(116, 116, 204),rgb(118, 118, 207),rgb(91, 91, 248)); */
+    background: linear-gradient(to bottom,rgb(51, 163, 88),rgb(17, 129, 68),rgba(9, 119, 46, 0.856));
+}
+
+.body{
+    padding: 4.5rem;
+}
+
+table{
+    width: 100%;
+    background-color: white;
+    border-radius: 8px 8px 0 0;
+}
+
+thead{
+    color:grey;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+thead tr td{
+    text-align: center;
+}
+
+tbody tr td{
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(117, 115, 115);
+}
+
+.roll{
+    color: rgb(70, 119, 165);
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fa-check{
+    color:green;
+}
+
+.fa-xmark{
+    color:red;
+}
+
+td button{
+    height: 2rem;
+    width:6rem;
+    background: linear-gradient(rgb(108, 108, 197),rgb(82, 82, 207),rgb(40, 40, 202));
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    margin: 0.6rem;
+    cursor: pointer;
+}
+
+#clearchecksbtn, #printbtn{
+    background:linear-gradient(rgb(108, 37, 155),rgb(108, 36, 150),rgb(132, 0, 255))
+}
+
+@media(max-width:941px){
+    html{
+        font-size: 90%;
+    }
+    .Physics{
+        content: '';
+        position: relative;
+    }
+    .Physics:after{
+        position: absolute;
+        content: 'P';
+        height: 100%;
+        width: 100%;
+        background:#fff;
+        top:0;
+        left:0;
+    }
+    .Chemistry{
+        content: '';
+        position: relative;
+    }
+    .Chemistry:after{
+        position: absolute;
+        content: 'C';
+        height: 100%;
+        width: 100%;
+        background:#fff;
+        top:0;
+        left:0;
+    }
+    .Biology{
+        content: '';
+        position: relative;
+    }
+    .Biology:after{
+        position: absolute;
+        content: 'B';
+        height: 100%;
+        width: 100%;
+        background:#fff;
+        top:0;
+        left:0;
+    }
+}
+
+@media(max-width:757px){
+    html{
+        font-size: 80%;
+    }
+}
+
+@media(max-width:563px){
+    html{
+        font-size: 70%;
+    }
+}
+
+@media(max-width:506px){
+    html{
+        font-size: 55%;
+    }
+}
